@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scheme name="Oscura Dusk" version="1" parent_scheme="Darcula">
+    <colors>
+        <!-- Basic colors -->
+        <option name="CARET_ROW_COLOR" value="1A1A1F"/>
+        <option name="CONSOLE_BACKGROUND_KEY" value="131419"/>
+        <option name="DOCUMENTATION_COLOR" value="161616"/>
+        <option name="GUTTER_BACKGROUND" value="131419"/>
+        <option name="LINE_NUMBERS_COLOR" value="32333B"/>
+        <option name="SELECTED_INDENT_GUIDE" value="E6E6E670"/>
+        <option name="SELECTION_BACKGROUND" value="5A5B63"/>
+        <option name="WHITESPACES" value="46474F"/>
+
+        <!-- Editor colors -->
+        <option name="READONLY_BACKGROUND" value="131419"/>
+        <option name="READONLY_FRAGMENT_BACKGROUND" value="131419"/>
+        <option name="TEARLINE_COLOR" value="32333B"/>
+        <option name="SOFT_WRAP_SIGN_COLOR" value="46474F"/>
+        
+        <!-- UI colors -->
+        <option name="NOTIFICATION_BACKGROUND" value="161616"/>
+        <option name="BORDER_COLOR" value="32333B"/>
+        <option name="SEPARATOR_BELOW_COLOR" value="32333B"/>
+    </colors>
+    
+    <attributes>
+        <!-- Syntax highlighting -->
+        <option name="DEFAULT_KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="9099A1"/>
+            </value>
+        </option>
+        <option name="DEFAULT_STRING">
+            <value>
+                <option name="FOREGROUND" value="4EBE96"/>
+            </value>
+        </option>
+        <option name="DEFAULT_NUMBER">
+            <value>
+                <option name="FOREGROUND" value="F9B98C"/>
+            </value>
+        </option>
+        <option name="DEFAULT_CONSTANT">
+            <value>
+                <option name="FOREGROUND" value="F9B98C"/>
+            </value>
+        </option>
+        <option name="DEFAULT_FUNCTION_DECLARATION">
+            <value>
+                <option name="FOREGROUND" value="E6E7A3"/>
+            </value>
+        </option>
+        <option name="DEFAULT_FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="E6E7A3"/>
+            </value>
+        </option>
+        <option name="DEFAULT_CLASS_NAME">
+            <value>
+                <option name="FOREGROUND" value="E6E7A3"/>
+            </value>
+        </option>
+        <option name="DEFAULT_INTERFACE_NAME">
+            <value>
+                <option name="FOREGROUND" value="E6E7A3"/>
+            </value>
+        </option>
+        <option name="DEFAULT_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="868F97"/>
+                <option name="FONT_TYPE" value="2"/>
+            </value>
+        </option>
+        <option name="DEFAULT_METADATA">
+            <value>
+                <option name="FOREGROUND" value="E6E6E6"/>
+            </value>
+        </option>
+        <option name="DEFAULT_IDENTIFIER">
+            <value>
+                <option name="FOREGROUND" value="E6E6E6"/>
+            </value>
+        </option>
+        <option name="DEFAULT_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="46474F"/>
+            </value>
+        </option>
+        <option name="DEFAULT_DOC_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="46474F"/>
+                <option name="FONT_TYPE" value="2"/>
+            </value>
+        </option>
+        <option name="DEFAULT_DOC_MARKUP">
+            <value>
+                <option name="FOREGROUND" value="868F97"/>
+            </value>
+        </option>
+        <option name="DEFAULT_BRACES">
+            <value>
+                <option name="FOREGROUND" value="5C6974"/>
+            </value>
+        </option>
+        <option name="DEFAULT_BRACKETS">
+            <value>
+                <option name="FOREGROUND" value="5C6974"/>
+            </value>
+        </option>
+        <option name="DEFAULT_PARENTHS">
+            <value>
+                <option name="FOREGROUND" value="5C6974"/>
+            </value>
+        </option>
+        <option name="DEFAULT_OPERATION_SIGN">
+            <value>
+                <option name="FOREGROUND" value="F9B98C"/>
+            </value>
+        </option>
+        <option name="TEXT">
+            <value>
+                <option name="FOREGROUND" value="E6E6E6"/>
+                <option name="BACKGROUND" value="131419"/>
+            </value>
+        </option>
+        
+        <!-- HTML/XML -->
+        <option name="HTML_TAG">
+            <value>
+                <option name="FOREGROUND" value="E6E7A3"/>
+            </value>
+        </option>
+        <option name="HTML_TAG_NAME">
+            <value>
+                <option name="FOREGROUND" value="E6E7A3"/>
+            </value>
+        </option>
+        <option name="HTML_ATTRIBUTE_NAME">
+            <value>
+                <option name="FOREGROUND" value="54C0A3"/>
+            </value>
+        </option>
+        
+        <!-- CSS -->
+        <option name="CSS.PROPERTY_NAME">
+            <value>
+                <option name="FOREGROUND" value="E6E6E6"/>
+            </value>
+        </option>
+        <option name="CSS.CLASS_NAME">
+            <value>
+                <option name="FOREGROUND" value="E6E7A3"/>
+            </value>
+        </option>
+        <option name="CSS.HASH">
+            <value>
+                <option name="FOREGROUND" value="E6E7A3"/>
+            </value>
+        </option>
+        
+        <!-- JavaScript -->
+        <option name="JS.GLOBAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="E6E6E6"/>
+            </value>
+        </option>
+        <option name="JS.INSTANCE_MEMBER_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="E6E6E6"/>
+            </value>
+        </option>
+        
+        <!-- TypeScript -->
+        <option name="TS.TYPE_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="E6E7A3"/>
+            </value>
+        </option>
+        <option name="TS.INTERFACE">
+            <value>
+                <option name="FOREGROUND" value="E6E7A3"/>
+            </value>
+        </option>
+        
+        <!-- Python -->
+        <option name="PYTHON.BUILTIN_NAME">
+            <value>
+                <option name="FOREGROUND" value="E6E7A3"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="PYTHON.DECORATOR">
+            <value>
+                <option name="FOREGROUND" value="E6E6E6"/>
+            </value>
+        </option>
+        <option name="PYTHON.STRING.B">
+            <value>
+                <option name="FOREGROUND" value="F9B98C"/>
+            </value>
+        </option>
+        
+        <!-- Markdown -->
+        <option name="MARKDOWN_HEADER_LEVEL_1">
+            <value>
+                <option name="FOREGROUND" value="E6E7A3"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="MARKDOWN_HEADER_LEVEL_2">
+            <value>
+                <option name="FOREGROUND" value="E6E7A3"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="MARKDOWN_HEADER_LEVEL_3">
+            <value>
+                <option name="FOREGROUND" value="E6E7A3"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="MARKDOWN_CODE_SPAN">
+            <value>
+                <option name="FOREGROUND" value="868F97"/>
+            </value>
+        </option>
+        <option name="MARKDOWN_LINK_TITLE">
+            <value>
+                <option name="FOREGROUND" value="479FFA"/>
+            </value>
+        </option>
+    </attributes>
+</scheme> 

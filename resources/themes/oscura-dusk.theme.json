@@ -1,0 +1,109 @@
+{
+  "name": "Oscura Dusk",
+  "author": "amureki",
+  "dark": true,
+  "editorScheme": "/colors/OscuraDusk.xml",
+  "colors": {
+    "primaryBackground": "#1A1A1F",
+    "secondaryBackground": "#131419",
+    "primaryForeground": "#E6E6E6",
+    "secondaryForeground": "#868F97",
+    "accentColor": "#E6E7A3",
+    "selectionBackground": "#5A5B63",
+    "borderColor": "#32333B",
+    "shadowColor": "#00000060"
+  },
+  "ui": {
+    "*": {
+      "background": "primaryBackground",
+      "foreground": "primaryForeground",
+      "infoForeground": "secondaryForeground",
+      "selectionBackground": "selectionBackground",
+      "selectionForeground": "primaryForeground",
+      "selectionInactiveBackground": "secondaryBackground",
+      "selectionBackgroundInactive": "secondaryBackground",
+      "borderColor": "borderColor"
+    },
+    "ActionButton": {
+      "hoverBackground": "#FFFFFF08",
+      "pressedBackground": "#FFFFFF12"
+    },
+    "Button": {
+      "arc": 4,
+      "background": "#32333B",
+      "foreground": "primaryForeground",
+      "startBackground": "#32333B",
+      "endBackground": "#32333B",
+      "startBorderColor": "#32333B",
+      "endBorderColor": "#32333B",
+      "focusedBorderColor": "accentColor",
+      "default": {
+        "foreground": "#000000",
+        "startBackground": "accentColor",
+        "endBackground": "accentColor",
+        "startBorderColor": "accentColor",
+        "endBorderColor": "accentColor",
+        "focusColor": "accentColor",
+        "focusedBorderColor": "accentColor"
+      }
+    },
+    "CompletionPopup": {
+      "background": "secondaryBackground",
+      "nonFocusedState": false,
+      "selectionBackground": "selectionBackground",
+      "selectionInactiveBackground": "selectionBackground",
+      "matchForeground": "accentColor"
+    },
+    "Counter": {
+      "background": "accentColor",
+      "foreground": "#000000"
+    },
+    "Editor": {
+      "background": "primaryBackground",
+      "foreground": "primaryForeground",
+      "shortcutForeground": "accentColor"
+    },
+    "EditorTabs": {
+      "background": "primaryBackground",
+      "borderColor": "borderColor",
+      "underlinedTabBackground": "primaryBackground",
+      "inactiveUnderlineColor": "borderColor",
+      "underlineColor": "accentColor",
+      "underlineHeight": 2
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "primaryBackground",
+        "borderColor": "borderColor",
+        "inactiveBackground": "primaryBackground"
+      },
+      "HeaderTab": {
+        "selectedBackground": "selectionBackground",
+        "hoverBackground": "#FFFFFF08",
+        "selectedInactiveBackground": "selectionBackground"
+      }
+    },
+    "Popup": {
+      "Header": {
+        "activeBackground": "secondaryBackground",
+        "inactiveBackground": "primaryBackground"
+      }
+    },
+    "Panel.background": "secondaryBackground",
+    "Menu": {
+      "background": "secondaryBackground",
+      "borderColor": "borderColor"
+    },
+    "Tree": {
+      "background": "primaryBackground",
+      "selectionBackground": "selectionBackground",
+      "modifiedItemForeground": "accentColor"
+    },
+    "ScrollPane": {
+      "background": "primaryBackground"
+    },
+    "Separator": {
+      "separatorColor": "borderColor"
+    }
+  }
+} 
